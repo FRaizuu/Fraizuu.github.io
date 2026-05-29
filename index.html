@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhamad Fa'iz Al Akbar — AI/ML Engineer & Data Scientist. Informatics Engineering student at Universitas Brawijaya specializing in Machine Learning, Computer Vision, and MLOps." />
+  <meta name="author" content="Muhamad Fa'iz Al Akbar" />
+  <meta property="og:title" content="Muhamad Fa'iz Al Akbar — AI/ML Engineer" />
+  <meta property="og:description" content="Data Science · Machine Learning · Computer Vision · MLOps" />
+  <meta property="og:type" content="website" />
+  <title>Muhamad Fa'iz Al Akbar — AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">MFA<span class="accent">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-inner reveal">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span> Available for opportunities
+        </div>
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Muhamad Fa'iz<br />Al Akbar</h1>
+        <h2 class="hero-role">
+          <span class="typed" id="typed"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          Informatics Engineering student at <strong>Universitas Brawijaya</strong>,
+          passionate about <strong>Data Science</strong>, <strong>Machine Learning Engineering</strong>,
+          and <strong>Computer Vision</strong>. I build data-driven systems — from EDA dashboards
+          to end-to-end MLOps pipelines.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/farhaanhabibiub" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.44 9.63 8.21 11.19.6.11.82-.25.82-.56 0-.28-.01-1.02-.02-2-3.34.71-4.04-1.58-4.04-1.58-.55-1.37-1.34-1.74-1.34-1.74-1.09-.73.08-.72.08-.72 1.21.08 1.84 1.22 1.84 1.22 1.07 1.8 2.81 1.28 3.5.98.11-.76.42-1.28.76-1.58-2.67-.3-5.47-1.31-5.47-5.81 0-1.28.47-2.33 1.23-3.15-.12-.3-.53-1.51.12-3.15 0 0 1.01-.32 3.3 1.2a11.6 11.6 0 0 1 3-.39c1.02 0 2.05.13 3 .39 2.29-1.52 3.29-1.2 3.29-1.2.65 1.64.24 2.85.12 3.15.77.82 1.23 1.87 1.23 3.15 0 4.51-2.81 5.5-5.49 5.79.43.36.81 1.08.81 2.18 0 1.58-.01 2.85-.01 3.24 0 .31.22.68.83.56C20.57 21.91 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/muhfaizaakbar/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="mailto:mfaizalakbar005@gmail.com" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 12.713l11.985-8.713c-.235-.235-.558-.376-.913-.376H.928c-.355 0-.678.141-.913.376L12 12.713zm0 2.574L.013 6.574C.005 6.642 0 6.71 0 6.78v10.44C0 18.2.8 19 1.78 19h20.44C23.2 19 24 18.2 24 17.22V6.78c0-.07-.005-.138-.013-.206L12 15.287z"/></svg>
+          </a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-head reveal">
+        <span class="section-tag">01 — About</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar reveal">
+          <div class="avatar-ring">
+            <div class="avatar-initials">MFA</div>
+          </div>
+          <div class="about-loc">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+            Malang, Indonesia
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            I'm an Informatics Engineering undergraduate at <strong>Universitas Brawijaya</strong> with a
+            strong interest in <strong>Data Science</strong>, <strong>Intelligent Computing</strong>,
+            <strong>Artificial Intelligence</strong>, and <strong>Machine Learning Engineering</strong>.
+          </p>
+          <p>
+            I've worked on academic projects spanning data analysis, supervised &amp; unsupervised learning,
+            AI model evaluation, and full <strong>MLOps</strong> pipelines. I'm fluent in Python &amp; SQL,
+            and I love turning messy data into clear, actionable insight.
+          </p>
+          <p>
+            Beyond code, I serve as <strong>Vice Head of Innovation Business</strong> at LPM Display FILKOM UB —
+            sharpening my leadership, teamwork, and analytical thinking along the way.
+          </p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num" data-target="8">0</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Certifications</span></div>
+            <div class="stat"><span class="stat-num" data-target="2">0</span><span class="stat-label">Years in Org</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-head reveal">
+        <span class="section-tag">02 — Skills</span>
+        <h2 class="section-title">Tools &amp; Technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Languages &amp; Core</h3>
+          <div class="chips">
+            <span>Python</span><span>SQL</span><span>Data Science</span><span>Machine Learning</span>
+            <span>Deep Learning</span><span>EDA</span><span>Data Classification</span><span>Data Summarization</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚙</div>
+          <h3>ML &amp; Data Libraries</h3>
+          <div class="chips">
+            <span>Pandas</span><span>NumPy</span><span>Scikit-Learn</span><span>Matplotlib</span>
+            <span>YOLO</span><span>Data Visualization</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚡</div>
+          <h3>MLOps &amp; Workflow</h3>
+          <div class="chips">
+            <span>Git</span><span>GitHub Actions</span><span>MLflow</span><span>DVC</span>
+            <span>Docker</span><span>FastAPI</span><span>Jupyter</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">✦</div>
+          <h3>GenAI &amp; Platforms</h3>
+          <div class="chips">
+            <span>Generative AI</span><span>Prompt Engineering</span><span>IBM Granite</span>
+            <span>Google Colab</span><span>Microsoft Excel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-head reveal">
+        <span class="section-tag">03 — Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Vice Head of Innovation Business</h3>
+              <span class="timeline-date">Jan 2026 — Present</span>
+            </div>
+            <p class="timeline-org">LPM Display FILKOM, Universitas Brawijaya · On-site</p>
+            <p class="timeline-loc">Malang, East Java, Indonesia</p>
+            <div class="chips small">
+              <span>Leadership</span><span>Team Leadership</span><span>Business Innovation</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Senior Staff of Business Innovation</h3>
+              <span class="timeline-date">Mar 2024 — Dec 2025</span>
+            </div>
+            <p class="timeline-org">LPM Display FILKOM, Universitas Brawijaya · On-site</p>
+            <p class="timeline-loc">Malang, East Java, Indonesia</p>
+            <div class="chips small">
+              <span>Business Strategy</span><span>Business Innovation</span><span>Teamwork</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <span class="section-tag">04 — Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+      </div>
+
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="aiml">AI / ML</button>
+        <button class="filter-btn" data-filter="cv">Computer Vision</button>
+        <button class="filter-btn" data-filter="dev">Software Dev</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- AI/ML -->
+        <article class="project-card reveal" data-cat="aiml">
+          <div class="project-top">
+            <span class="project-cat">AI / ML</span>
+            <a href="https://github.com/farhaanhabibiub/rdv-taxi-analysis" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">↗</a>
+          </div>
+          <h3>NYC Taxi Manhattan Analysis Dashboard</h3>
+          <p>Interactive analytics dashboard exploring NYC taxi trip patterns across Manhattan — fares, trip distance, and demand hotspots.</p>
+          <div class="chips small"><span>Python</span><span>Pandas</span><span>Data Viz</span></div>
+        </article>
+
+        <article class="project-card reveal" data-cat="aiml">
+          <div class="project-top">
+            <span class="project-cat">AI / ML</span>
+            <a href="https://github.com/yoshiabp/TugasAkhirPIPT" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">↗</a>
+          </div>
+          <h3>Indonesian News Search Engine</h3>
+          <p>An information-retrieval search engine for Indonesian news articles, applying text preprocessing and ranked retrieval over a document corpus.</p>
+          <div class="chips small"><span>Python</span><span>NLP</span><span>Information Retrieval</span></div>
+        </article>
+
+        <article class="project-card reveal" data-cat="aiml">
+          <div class="project-top">
+            <span class="project-cat">AI / ML</span>
+            <a href="https://drive.google.com/file/d/1pxSlcp7SH29QQLIsdGVHEBCyJsLWXeTL/view?usp=sharing" target="_blank" rel="noopener" class="project-link" aria-label="View report">↗</a>
+          </div>
+          <h3>Heart Disease ML Analysis</h3>
+          <p>Supervised classification of heart disease using KNN, SVM, Random Forest &amp; XGBoost, plus unsupervised clustering. Evaluated with accuracy, precision, recall &amp; F1.</p>
+          <div class="chips small"><span>Scikit-Learn</span><span>XGBoost</span><span>Clustering</span></div>
+        </article>
+
+        <article class="project-card reveal" data-cat="aiml">
+          <div class="project-top">
+            <span class="project-cat">AI / ML</span>
+            <a href="https://github.com/riprhmn/deep-learning-final-project" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">↗</a>
+          </div>
+          <h3>Dental Age Estimation with Deep Learning</h3>
+          <p>Deep learning model estimating dental age from radiographic images — a CNN-based regression approach for forensic &amp; clinical use cases.</p>
+          <div class="chips small"><span>Deep Learning</span><span>CNN</span><span>Computer Vision</span></div>
+        </article>
+
+        <article class="project-card reveal" data-cat="aiml">
+          <div class="project-top">
+            <span class="project-cat">AI / ML · MLOps</span>
+            <span class="project-link muted" title="Course project">●</span>
+          </div>
+          <h3>Forest Fire Hotspot Detection System</h3>
+          <p>End-to-end MLOps pipeline predicting daily fire hotspots over Kalimantan &amp; Sumatra using NASA FIRMS satellite data — with drift detection (PSI), shadow deployment &amp; CI/CD.</p>
+          <div class="chips small"><span>DVC</span><span>MLflow</span><span>FastAPI</span><span>GitHub Actions</span></div>
+        </article>
+
+        <!-- Computer Vision -->
+        <article class="project-card reveal" data-cat="cv">
+          <div class="project-top">
+            <span class="project-cat">Computer Vision</span>
+            <a href="https://github.com/rahmaliyyah/SecVis" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">↗</a>
+          </div>
+          <h3>SecVis — K3 Safety Monitoring (PT Epson Indonesia)</h3>
+          <p>Edge-based computer vision system using YOLO to monitor PPE compliance &amp; workplace safety in real time. Designed with UU PDP 2022 data-governance compliance.</p>
+          <div class="chips small"><span>YOLO</span><span>Edge AI</span><span>Real-time</span></div>
+        </article>
+
+        <article class="project-card reveal" data-cat="cv">
+          <div class="project-top">
+            <span class="project-cat">Computer Vision</span>
+            <a href="https://github.com/riprhmn/uni-komgraf" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">↗</a>
+          </div>
+          <h3>Interactive Earth Layer Visualization</h3>
+          <p>An interactive computer-graphics visualization of Earth's internal layers — rendering geological structure with interactive controls.</p>
+          <div class="chips small"><span>Computer Graphics</span><span>Visualization</span><span>WebGL</span></div>
+        </article>
+
+        <!-- Software Dev -->
+        <article class="project-card reveal" data-cat="dev">
+          <div class="project-top">
+            <span class="project-cat">Software Dev</span>
+            <a href="https://github.com/farhaanhabibiub/project-akhir-papb" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">↗</a>
+          </div>
+          <h3>FinAI — Financial Education App</h3>
+          <p>A mobile financial-education application helping users learn money management, powered by an AI assistant for personalized guidance.</p>
+          <div class="chips small"><span>Android</span><span>Kotlin</span><span>AI Assistant</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+      <div class="section-head reveal">
+        <span class="section-tag">05 — Certifications</span>
+        <h2 class="section-title">Credentials</h2>
+      </div>
+      <div class="cert-grid">
+        <a href="https://drive.google.com/file/d/182CeKjaQn6I2fYhIvqp0651gut9FYMWS/view?usp=sharing" target="_blank" rel="noopener" class="cert-card reveal">
+          <div class="cert-issuer">IBM SkillsBuild</div>
+          <h3>Data Classification &amp; Summarization Using IBM Granite</h3>
+          <span class="cert-year">2025</span>
+          <span class="cert-view">View credential ↗</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1TS__eLhTRmTYIDZ-t4xpZSQ0MoAJlCf9/view?usp=sharing" target="_blank" rel="noopener" class="cert-card reveal">
+          <div class="cert-issuer">AWS Academy</div>
+          <h3>AWS Academy Graduate — Data Engineering</h3>
+          <span class="cert-year">2026</span>
+          <span class="cert-view">View credential ↗</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1V8-89B9DeuiuEG75wkiPlbJFjbg-WfHg/view?usp=sharing" target="_blank" rel="noopener" class="cert-card reveal">
+          <div class="cert-issuer">Coursera · IBM</div>
+          <h3>Machine Learning with Python</h3>
+          <span class="cert-year">2025</span>
+          <span class="cert-view">View credential ↗</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1kT3EX4AIpaTt1YzGU3q1WJfg4MXGu25p/view?usp=sharing" target="_blank" rel="noopener" class="cert-card reveal">
+          <div class="cert-issuer">IBLU Academy</div>
+          <h3>Certified Data Analyst Using Microsoft Excel</h3>
+          <span class="cert-year">2025</span>
+          <span class="cert-view">View credential ↗</span>
+        </a>
+        <a href="https://drive.google.com/file/d/1Q6EfFiwq_yywYSqNHjncKddcKgwrtPuh/view?usp=sharing" target="_blank" rel="noopener" class="cert-card reveal">
+          <div class="cert-issuer">DSAREA</div>
+          <h3>Data Analyst with Microsoft Excel &amp; R Language</h3>
+          <span class="cert-year">2025</span>
+          <span class="cert-view">View credential ↗</span>
+        </a>
+        <div class="cert-card reveal edu-card">
+          <div class="cert-issuer">Education</div>
+          <h3>B.S. Informatics Engineering<br /><span class="edu-school">Universitas Brawijaya</span></h3>
+          <span class="cert-year">2023 — Present</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="contact-inner reveal">
+        <span class="section-tag">06 — Contact</span>
+        <h2 class="contact-title">Let's build something<br /><span class="accent">data-driven</span> together.</h2>
+        <p class="contact-desc">
+          I'm open to internships, research collaborations, and AI/ML opportunities.
+          Drop me a message — I'll get back to you.
+        </p>
+        <a href="mailto:mfaizalakbar005@gmail.com" class="btn btn-primary big">mfaizalakbar005@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/muhfaizaakbar/" target="_blank" rel="noopener">LinkedIn</a>
+          <span class="dot">·</span>
+          <a href="https://github.com/farhaanhabibiub" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot">·</span>
+          <a href="tel:+6281248611651">+62 812-4861-1651</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Muhamad Fa'iz Al Akbar · Built with care &amp; caffeine ☕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
